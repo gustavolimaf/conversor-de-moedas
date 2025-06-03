@@ -24,7 +24,7 @@ public class Menu {
                 opcao = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Entrada inválida. Digite um número entre 1 e 7.");
-                scanner.nextLine(); // consumir entrada errada
+                scanner.nextLine(); 
                 continue;
             }
 
