@@ -7,7 +7,7 @@ import java.net.URL;
 
 public class ApiService {
 
-    private static final String API_KEY = "fd2b4e8e95d84d5172b85f4f";
+    private static final String API_KEY = "chave-api-pessoal";
 
     public Double obterTaxa(String from, String to) {
         try {
